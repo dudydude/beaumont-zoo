@@ -14,9 +14,9 @@ var apiGoogle = "AIzaSyBnFVn9BI7PW3OrHEOngOtF1mdIUBwfneE";
 
 // API METEO
 
-var xmlhttp = new XMLHttpsRequest();
+var xmlhttp = new XMLHttpRequest();
 
-var url = `http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&units=metric&appid=${apiKey} `;
+var url = `https://api.openweathermap.org/data/2.5/forecast?id=${cityId}&units=metric&appid=${apiKey} `;
 
 xmlhttp.onreadystatechange = function() {
   var midi = [];
