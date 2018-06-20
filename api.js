@@ -14,7 +14,7 @@ var apiGoogle = "AIzaSyBnFVn9BI7PW3OrHEOngOtF1mdIUBwfneE";
 
 // API METEO
 
-var xmlhttp = new XMLHttpRequest();
+var xmlhttp = new XMLHttpsRequest();
 
 var url = `http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&units=metric&appid=${apiKey} `;
 
