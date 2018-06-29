@@ -45,7 +45,7 @@ function array(arr) {
         `<li> 
             <h3>${moment(arr[i].dt_txt).format("dddd")}</h3>
         <img src=${logoSun}></br> <p class="temperature"> Température moyenne : <br>` +
-          (arr[i].main.temp_max + arr[i].main.temp_max) / 2 +
+          ((arr[i].main.temp_max + arr[i].main.temp_max) / 2).toFixed(2) +
           " °C </p></li>"
       );
     } else if (arr[i].weather[0].description.indexOf("clouds") !== -1) {
@@ -53,7 +53,7 @@ function array(arr) {
         `<li> 
         <h3>${moment(arr[i].dt_txt).format("dddd")}</h3>
         <img src=${logoNuages}></br> <p class="temperature"> Température moyenne : <br>` +
-          (arr[i].main.temp_max + arr[i].main.temp_max) / 2 +
+          ((arr[i].main.temp_max + arr[i].main.temp_max) / 2).toFixed(2) +
           " °C </p></li>"
       );
     } else
@@ -61,7 +61,7 @@ function array(arr) {
         `<li> 
         <h3>${moment(arr[i].dt_txt).format("dddd")}</h3>
         <img src=${logoPluie}></br> <p class="temperature"> Température moyenne : <br>` +
-          (arr[i].main.temp_max + arr[i].main.temp_max / 2) +
+          ((arr[i].main.temp_max + arr[i].main.temp_max) / 2).toFixed(2) +
           " °C </p></li>"
       );
   }

@@ -5,11 +5,11 @@ var timeBeforeBeaumont = 30 - time + 14;
 
 if (timeBeforeBeaumont < 3) {
   $(".soon").append(
-    "Mais presque, alors prépare ton sac, sort ton plus beau maillot (fait un petit tour sur la météo ici d'abord ==> ) et repose toi un peu tu en aura besoin 😇"
+    "Presque, alors prépare ton sac, sort ton plus beau maillot, et repose toi un peu tu en aura besoin 😇"
   );
 } else if (timeBeforeBeaumont < 10) {
   $(".soon").append(
-    "Plus qu'une petite dizaine de jour, si tu n'as pas encore participé à la cagnotte c'est par ici ==> , pour le trajet c'est par ici ==>"
+    "Plus qu'une petite dizaine de jour, si tu n'as pas encore participé à la cagnotte c'est par ici ==> <a href=''>💰</a>, pour le trajet c'est par ici <a href='Extra-pages/road.html'>🚀</a>"
   );
 } else
   $(".soon").append(
@@ -23,4 +23,8 @@ $(".timeLeft").append(
     timeBeforeBeaumont +
     "</span>" +
     " jours à attendre"
+);
+
+console.log(
+  "Léo ou Jordi ou Antoine si vous regardez ça ne juger pas mon code 🙈 c'est tout cracra mais je voulais faire ça en balle 🌈"
 );

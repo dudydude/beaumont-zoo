@@ -109,3 +109,18 @@ ul li a {
 .coming-soon {
   margin-top: 200px;
 }
+
+.moreBody {
+  display: flex;
+}
+.youtube {
+  display: flex;
+  flex-direction: column;
+  /* padding: 6%; */
+  border: 1px solid black;
+}
+
+.youtube a {
+  width: 60%;
+  margin: 0 20%;
+}
