@@ -1,5 +1,5 @@
 var time = new Date().getDate();
-var timeBeforeBeaumont = 30 - time + 14;
+var timeBeforeBeaumont = 14 - time;
 
 // AFFICHAGE D'UN MESSAGE PERSO SELON LE TEMPS RESTANT AVANT BEAUMONT
 
